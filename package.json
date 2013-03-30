@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-resumable-stream",
+  "desription": "Utility function to allow the original Node.js stream to be paused and resumed correctly.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/resumable-stream",
+  "repository": {
+    "url": "git@github.com:quiverjs/resumable-stream.git"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2",
+    "async": ">=0.2.6"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/resumable-stream/issues",
+    "email": "quiverjs@soareschne.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/resumable-stream",
+  "scripts": {
+    "test": "make test"
+  }
+}
